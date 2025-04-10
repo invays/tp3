@@ -1,0 +1,88 @@
+#by Arindam Paul
+
+/node_modules
+package-lock.json
+
+# Config and Htaccess Files
+/public/.htaccess
+/public/.htpasswd
+/public/config.php
+/public/robots.txt
+/public/webpanel/config.php
+
+# Image Cache Files
+/public/image/cache/*
+!public/image/cache/index.html
+
+# Image Catalog Files
+/public/image/catalog/*
+!public/image/catalog/payment
+!public/image/catalog/cart.png
+!public/image/catalog/index.html
+!public/image/catalog/opencart.ico
+!public/image/catalog/profile-pic.png
+
+!public/image/module/*
+!public/image/catalog/logo.png
+!public/image/no_image.jpg
+!public/image/no_image.png
+!public/image/placeholder.png
+
+
+# # Backup Files
+# /system/storage/backup/*
+# !/system/storage/backup/index.html
+
+# # System Cache Files
+# /system/storage/cache/*
+# !/system/storage/cache/index.html
+
+# # Download Files
+# /system/storage/download/*
+# !/system/storage/download/index.html
+
+# # Log Files
+# /system/storage/logs/*
+# !/system/storage/logs/index.html
+
+# Marketplace Files
+# /upload/system/storage/marketplace/*
+# !/upload/system/storage/marketplace/index.html
+
+# Session Files
+/storage/session/*
+!/storage/session/index.html
+
+# Cache Files
+/storage/cache/*
+!/storage/cache/index.html
+
+# Upload Files
+/storage/upload/*
+!/storage/upload/index.html
+
+# Upload Files
+/storage/pricelist/*
+!/storage/pricelist/index.html
+
+
+# Vendor Files
+/storage/vendor/*
+!/storage/vendor/composer.json
+
+# Vendor Files
+/storage/logs/*
+!/storage/logs/index.html
+
+/storage/sitemap/*
+!/storage/sitemap/index.html
+
+!/swagger/*
+
+# If you want to ignore install file use following lines [on development mode]
+# /upload/install/*
+
+# IDE Project filescd  xampp
+
+/.idea
+/upload/.idea
